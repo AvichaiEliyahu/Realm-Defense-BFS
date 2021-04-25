@@ -24,6 +24,10 @@ public class CoordinateLabler : MonoBehaviour
         lable = GetComponent<TextMeshPro>();
         DisplayCoordinates();  
     }
+    private void Start()
+    {
+        lable.enabled = false;
+    }
     void Update()
     {
         if (!Application.isPlaying)

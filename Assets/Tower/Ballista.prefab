@@ -168,7 +168,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 30
+      scalar: 45
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -865,7 +865,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2
+      scalar: 3
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -4852,7 +4852,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weapon: {fileID: 3144582324300694500}
   projectileParticles: {fileID: 3725913101011936767}
-  range: 15
+  range: 30
 --- !u!114 &1507094131608578070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4865,7 +4865,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0b472257d81ce4408b4d8b6b49c686b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cost: 75
+  cost: 100
+  buildDelay: 1
 --- !u!1 &6131056645070147807
 GameObject:
   m_ObjectHideFlags: 0
